@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display Text File</title>
+    <style>
+        .wrap-text {
+            width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+        }
+    </style>
 </head>
 <body>
     <h2>Text File Content:</h2>
@@ -11,7 +19,7 @@
 
     <script>
         // Fetch and display text file content
-        fetch('Homework 1.txt')
+        fetch('Homework%201.txt') // Fix spaces in filename
             .then(response => response.text())
             .then(data => {
                 document.getElementById('text-content').textContent = data;
@@ -21,5 +29,9 @@
                 console.error("Error:", error);
             });
     </script>
+
+    <div class="wrap-text">
+        This is a long line of text that will wrap instead of extending beyond the screen, even if it's a single long word like Supercalifragilisticexpialidocious.
+    </div>
 </body>
 </html>
