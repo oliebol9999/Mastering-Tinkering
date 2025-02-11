@@ -1,9 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Page</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Text File</title>
+</head>
+<body>
+    <h2>Text File Content:</h2>
+    <pre id="text-content">Loading...</pre>
+
+    <script>
+        // Fetch and display text file content
+        fetch('Homework 1.txt')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('text-content').textContent = data;
+            })
+            .catch(error => {
+                document.getElementById('text-content').textContent = "Error loading file!";
+                console.error("Error:", error);
+            });
+    </script>
+</body>
 </html>

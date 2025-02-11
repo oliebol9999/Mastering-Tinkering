@@ -1,0 +1,5 @@
+Something about me
+
+I have studied Biomedical Engineering as a bachelor on the UT. Near the end of this study I realized I was way better at data processing/programming than at memorizing medical facts, so I started the Master Robotics with Algorithms and software AI as specialization. In my free time I mostly play videogames and skateboard every now and then. Historically I have not tinkered a lot, though recently I have found a big stick in the park next to my home, which I am turning into a container to plant a plant in. Also I have been entertaining the idea of growing a plant inside a DIY camera, though this is somewhat of a long term project...
+
+For my study I have tinkered around with programming a lot. Mostly in Python, though I am not afraid to use MATLAB for anything.
