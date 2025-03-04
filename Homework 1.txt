@@ -1,12 +1,13 @@
 Something about me
 
-I have studied Biomedical Engineering as a bachelor on the UT. Near the end of this study I realized I was way better at data processing/programming than at memorizing medical facts, so I started the Master Robotics with Algorithms and software AI as specialization. In my free time I mostly play videogames and skateboard every now and then. Historically I have not tinkered a lot, though recently I have found a big stick in the park next to my home, which I am turning into a container to plant a plant in. Also I have been entertaining the idea of growing a plant inside a DIY camera, though this is somewhat of a long term project...
+I have studied Biomedical Engineering as a bachelor on the UT. Near the end of this study I realized I was way better at data processing/programming than at memorizing medical facts, so I started the Master Robotics with Algorithms and software AI as specialization. In my free time I mostly play videogames and skateboard every now and then. Historically I have not tinkered a lot, though recently I have found a big stick in the park next to my home, which I am turning into a container to plant a plant in. Also I have been entertaining the idea of growing a plant inside a DIY camera, though this is somewhat of a long term project. For this I have bought most necessary parts, like a lens + camera and raspberry pi, but the last parts have taken a lot of time to arrive.
 
-For my study I have tinkered around with programming a lot. Mostly in Python, though I am not afraid to use MATLAB for anything.
+For my study I have tinkered around with programming a lot. I mostly prefer Python and MATLAB, though I have gained some experience using HTML and C++ recently (I will also generate this site using HTML to practice more, hopefully that will go well...).
+I am somewhat interested in woodworking, since this could allow me to make nice furniture tailored towards my needs. In the past I have created some floating shelves to facilitate more storage. The leftover wood of this project can be seen in front of my clauset, though i have not thought up a good use for this.
+With tinkering, I usually am not very perfectionistic. As long as i finish a project I am happy, since I will have learned something and my next project will likely profit from the added experience.
 
 definition tinkering according to Cambridge Dictionary:
 to make small changes to something, especially in an attempt to repair or improve it
-
 
 definition of trial and error according to Cambridge Dictionary:
 a way of achieving an aim or solving a problem by trying a number of different methods and learning from the mistakes that you make: 
@@ -14,8 +15,28 @@ a way of achieving an aim or solving a problem by trying a number of different m
 definition of brainstorming according to Cambridge Dictionary:
 an activity or business method in which a group of people meet to suggest a lot of new ideas for possible development
 
+tinkering and trial and error both aim to solve a problem, thought the dictionary says tinkering makes small changes and trial and error tried a number of different methods to achieve a solution. Brainstorming seems somewhat different, as it is the act of finding a solution to a problem (without immediately solving the problem), not the act of solving the problem. 
 
-Tinkering process:
-At the same time I think the building blocks I create should have some kind of meaning or interesting shape, since otherwise they would be somewhat boring blocks to me. The pieces should also fit together, which resulted in some constraints on the final product. At first I was brainstorming about complex 3d shapes, but I realised this was hard to think about and hard to draw properly. I thought of some kind of octopus like block, as depicted in the 2d drawing below. This would contain holes for an extention to fit in at four different sides. This did not seem interesting enough to me however, so I kept brainstorming.
+When asking ChatGPT the following question:
+	"what is the definition of tinkering, trial and error and brainstorming and what is the difference between them?"
+It responded with:
+Here are the definitions and differences between tinkering, trial and error, and brainstorming:
+Definitions:
+    "Tinkering – The process of experimenting or playing around with something to figure out how it works or improve it. It often involves hands-on, informal exploration without a fixed plan.
+    Trial and Error – A method of problem-solving that involves testing different solutions until the correct one is found. If one approach fails, another is tried until success is achieved.
+    Brainstorming – A creative thinking process where multiple ideas or solutions are generated, often in a group setting, without immediate judgment or filtering.
+
+Differences:
+Concept	Key Feature	Purpose
+Tinkering		Hands-on, playful experimentation	To explore, learn, or improve something informally
+Trial and Error		Repeated attempts with adjustments	To find a successful solution through testing
+Brainstorming		Idea generation, often collaborative	To create new ideas or solve a problem creatively
+
+    Tinkering is more about curiosity and informal learning.
+    Trial and Error is structured towards solving a specific problem by testing different approaches.
+    Brainstorming is about generating many ideas without immediately testing them."
+
+Tinkering process for building blocks:
+I think the building blocks I create should have some kind of meaning or interesting shape, since otherwise they would be somewhat boring blocks to me. The pieces should also fit together, which resulted in some constraints on the final product. At first I was brainstorming about complex 3d shapes, but I realised this was hard to think about and hard to draw properly, as i have little to no experience with 3d software. I thought of some kind of octopus like block, as depicted in the 2d drawing below. This would contain holes for an extention to fit in at four different sides. This did not seem interesting enough to me however, so I kept brainstorming.
 
 I have always thought KNEX is really cool, because you are able to create something filling up half your room with elements which have a very small volume on their own. At the same time I realized mimicking some shape i knew would fit together would make the design process easier. I have always been fascinated with protein folding, and the stick-like structure of peptides resembles the KNEX i know and love.
