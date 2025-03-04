@@ -3,3 +3,19 @@ Something about me
 I have studied Biomedical Engineering as a bachelor on the UT. Near the end of this study I realized I was way better at data processing/programming than at memorizing medical facts, so I started the Master Robotics with Algorithms and software AI as specialization. In my free time I mostly play videogames and skateboard every now and then. Historically I have not tinkered a lot, though recently I have found a big stick in the park next to my home, which I am turning into a container to plant a plant in. Also I have been entertaining the idea of growing a plant inside a DIY camera, though this is somewhat of a long term project...
 
 For my study I have tinkered around with programming a lot. Mostly in Python, though I am not afraid to use MATLAB for anything.
+
+definition tinkering according to Cambridge Dictionary:
+to make small changes to something, especially in an attempt to repair or improve it
+
+
+definition of trial and error according to Cambridge Dictionary:
+a way of achieving an aim or solving a problem by trying a number of different methods and learning from the mistakes that you make: 
+
+definition of brainstorming according to Cambridge Dictionary:
+an activity or business method in which a group of people meet to suggest a lot of new ideas for possible development
+
+
+Tinkering process:
+At the same time I think the building blocks I create should have some kind of meaning or interesting shape, since otherwise they would be somewhat boring blocks to me. The pieces should also fit together, which resulted in some constraints on the final product. At first I was brainstorming about complex 3d shapes, but I realised this was hard to think about and hard to draw properly. I thought of some kind of octopus like block, as depicted in the 2d drawing below. This would contain holes for an extention to fit in at four different sides. This did not seem interesting enough to me however, so I kept brainstorming.
+
+I have always thought KNEX is really cool, because you are able to create something filling up half your room with elements which have a very small volume on their own. At the same time I realized mimicking some shape i knew would fit together would make the design process easier. I have always been fascinated with protein folding, and the stick-like structure of peptides resembles the KNEX i know and love.
