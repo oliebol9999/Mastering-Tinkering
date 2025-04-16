@@ -5,60 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Arend</title>
     <style>
-        .wrap-text {
-            width: 100%;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            white-space: normal;
-        }
-
-        /* FIX: Ensure text from file wraps inside <pre> */
-        #text-content {
+        pre {
             white-space: pre-wrap;
             word-wrap: break-word;
             overflow-wrap: break-word;
+            background-color: #f9f9f9;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 90%;
+            margin-bottom: 2em;
         }
     </style>
 </head>
 <body>
     <h2>Portfolio Arend:</h2>
 
-<h1>Homework week 1:</h1>
-<pre id="homework1">Loading Homework 1...</pre>
+    <h3>Homework week 1:</h3>
+    <pre id="homework1">Loading Homework 1...</pre>
 
-<h1>Homework week 3:</h1>
-<pre id="homework3">Loading Homework 3...</pre>
+    <h3>Homework week 3:</h3>
+    <pre id="homework3">Loading Homework 3...</pre>
 
-<h1>Card Tinkering:</h1>
-<pre id="cardTinkering">Loading Card Tinkering...</pre>
+    <h3>Card Tinkering:</h3>
+    <pre id="cardTinkering">Loading Card Tinkering...</pre>
 
-<h1>Homework week 5:</h1>
-<pre id="homework5">Loading Homework 5...</pre>
+    <h3>Homework week 5:</h3>
+    <pre id="homework5">Loading Homework 5...</pre>
 
-<h1>Groupwork:</h1>
-<pre id="groupwork">Loading Groupwork...</pre>
+    <h3>Groupwork:</h3>
+    <pre id="groupwork">Loading Groupwork...</pre>
 
-<script>
-    const files = [
-        { id: 'homework1', file: 'Homework%201.txt' },
-        { id: 'homework3', file: 'Homework%203.txt' },
-        { id: 'cardTinkering', file: 'card_tinkering.txt' },
-        { id: 'homework5', file: 'Homework%205.txt' },
-        { id: 'groupwork', file: 'groupwork.txt' },
-    ];
+    <script>
+        const files = [
+            { id: 'homework1', file: 'Homework%201.txt' },
+            { id: 'homework3', file: 'Homework%203.txt' },
+            { id: 'cardTinkering', file: 'card_tinkering.txt' },
+            { id: 'homework5', file: 'Homework%205.txt' },
+            { id: 'groupwork', file: 'groupwork.txt' },
+        ];
 
-    files.forEach(({ id, file }) => {
-        fetch(file)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById(id).textContent = data;
-            })
-            .catch(error => {
-                document.getElementById(id).textContent = "Error loading file!";
-                console.error("Error loading", file, ":", error);
-            });
-    });
-</script>
+        files.forEach(({ id, file }) => {
+            fetch(file)
+                .then(response => {
+                    if (!response.ok) throw new Error("Network response was not ok");
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById(id).textContent = data;
+                })
+                .catch(error => {
+                    document.getElementById(id).textContent = "Error loading file!";
+                    console.error("Error loading", file, ":", error);
+                });
+        });
+    </script>
 
     <h2>Figures:</h2>
 
@@ -68,36 +69,35 @@
     </figure>
     <figure>
         <img src="Pictures/tinkertools.jpeg" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 1: A photo of my tinker tool storage.</figcaption>
+        <figcaption>Figure 2: A photo of my tinker tool storage.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/soapbox.jpeg" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 2: A photo of the soapbox I created with my fraternity for a soapbox race (we ended in the top 3).</figcaption>
+        <figcaption>Figure 3: A photo of the soapbox I created with my fraternity for a soapbox race (we ended in the top 3).</figcaption>
     </figure>
     <figure>
         <img src="Pictures/octopus block.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 2: A first draft for a building block, dubbed the octopus block. This drawing is a slice along the length of the block, with the width being constant. This idea was discarded on the account of being boring.</figcaption>
+        <figcaption>Figure 4: A draft for a building block, dubbed the octopus block. This idea was discarded for being boring.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/knex.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 3: An illustration of KNEX, which is really cool and inspired me to create molecules as a building block.</figcaption>
+        <figcaption>Figure 5: An illustration of KNEX, which inspired me to create molecules as a building block.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/Magnet setup.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 4: A rough sketch of how magnets could replace the bonds betweeen individual peptides. The orange and red lines are magnets connecting to their corresponding colour.</figcaption>
+        <figcaption>Figure 6: A rough sketch of magnets replacing peptide bonds.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/alpha helix structure.jpg" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 5: The secondary alpha helix protein structure of peptides.</figcaption>
+        <figcaption>Figure 7: The alpha helix structure of peptides.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/beta sheet structure.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 6: The secondary beta sheet protein structure of peptides.</figcaption>
+        <figcaption>Figure 8: The beta sheet structure of peptides.</figcaption>
     </figure>
     <figure>
         <img src="Pictures/assignment2.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 6: The table with materials and their qualities, as made for assignment 2.</figcaption>
+        <figcaption>Figure 9: A material table for assignment 2.</figcaption>
     </figure>
-
 </body>
 </html>
