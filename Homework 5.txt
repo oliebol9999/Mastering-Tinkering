@@ -1,0 +1,34 @@
+1) Tinkering is a way to generate knowledge. What kind of knowledge results from a tinkering process in your experience?
+In my experience, tinkering leads to the more practical kinds of knowledge. For instance, how do i attach two pieces of wood to eachother in a structurally sound way. Or, how do i create a 3d model in solidworks. Usually, the more theoretical kinds of knowledge (for instance, how do i calculate how much force a joint can handle) I get more easy by searching online or going to university lectures. 
+
+2) Tinkering with classical materials like clay, paper, colour, textiles is more related to craft. How does tinkering work with digital and electronic media?
+Tinkering needs a physical part, so pure data processing is not necessarily tinkering. However, digital and electronic media usually is very suitable for trial and error. Seeing what happens when you connect X to Y can be very insightful.
+
+3) One basic characteristic of science is reproducibility. Is that possible with tinkering? Or do we want that at all?
+Reproducibility is very possible with tinkering. When you try stuff out, you might notice something you did not expect. In such a case, it could be smart to repeat your actions, to see if what you did actually caused the weird behaviour. This is a test of reproducibility. However, usually with tinkering you are working on something new, so generally novelty is more important than reproduction when tinkering.
+
+4) Design practice changed during the past years, from long design phases to short, iterative processes, due to the availability of new prototyping technologies. Is this iterative process of prototyping qualitatively different from the cycles we do in tinkering?
+In short design iterations, you generally calculate an expected outcome before you do anything (atleast, that is my experience from robotics. You don't want to break anything). This makes the design process very informed and calculated. However, tinkering is slightly more playful. In tinkering, you don't necessarily need to have an expected outcome before you do anything, you just need to be interested in the outcome. I feel like in tinkering curiosity is more leading (because you want to make something cool), while in design knowledge should lead (because you want to make something that works).
+
+5) Can a co-design session be described as a tinkering session as we treat it in our course?
+I understand co-designing as designing something together with a colleague. I would argue co-designing is less playfull than designing on your own, since you need to explain your choices to your groupmate. This will hinder you to do creative, curiosity driven actions and will instead motivate you to base your actions in what you already know to be true. However, at the same time your groupmate might know a lot you do not know, allowing you to combine your knowledge to test something you might not have thought of on your own.
+
+6) The choice of materials (seed, tools, scaffolding, facilitation) has an effect on the outcome, the knowledge and products made in a tinkering session. How can we use that in a co-design session? Can we really influence the kind of results here, and do we want that?
+Tinkering generally leads to playfull acquisition of knowledge, and is thus desirable in an educational setting. Materials, and in particular scaffolding and facilitation excist to offer guidance and ease the frustration caused by complexity of projects. As this complexity can slow down tinkering a lot, proper materials can have a very positive effect on a co-design session.
+
+7) In “research through design” can tinkering fill in the design part?
+In some cases, yes. Tinkering is a very playful way of designing. This playful approach can spark new ideas, which might be valuable in the context of research when tested further.
+
+
+8) Are there design questions where tinkering is not a possible or useful approach?
+Yes. In general, tinkering leads to a lot of failed attempts (which is caused by the trial and error of tinkering). These failed attempts might cost a lot of money when using costly materials. In the case of robotics, unsafe situations can also be caused by feeding improper signals into a control system, which might have a robot perform uncontrolled movement.
+
+9) Read Invent to Learn3) Links to an external site. page 41. how to balance real-world (criticality) with the fruitful mindset of tinkering?
+I did not have the time to read this
+
+
+10) what is the critical impact your tinkering exercise could have? (on you, your design/engineering practice or problem, both positive and negative)
+Tinkering can have the positive and negative effects on my design projects mentioned in 8) and 9). As someone who specialises mostly in programming and data analysis, tinkering will hopefully allow me to slowly build a more broad expertice using some physical materials. This will likely also be usefull within my robotics specialization, as the robots themselves also need to be built.
+
+11) what is the impact your session have regarding (more) stuff, ecological footprint and impact on our planet (i.e. how can you avoid that STEM workshops with waste material result in more waste material?)
+Currently, we are using old kites to make the sails. The supply of old kites is not infinite, but we can probably reuse the sails. This would solve the problem of waste arising from the sails, but still the workshop would require a lot of other materials. The wood could partly be reused when taken apart, but stuff like epoxy would be hard to reuse. Sadly, this is a problem to which i have no solution other than to severely restructure the workshop.
