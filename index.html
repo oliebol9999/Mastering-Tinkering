@@ -26,18 +26,28 @@
 
     <pre id="text-content">Loading...</pre>
 
-    <script>
-        // Fetch and display text file content
-        fetch('Homework%201.txt') // Fix spaces in filename
+<script>
+    const files = [
+        { id: 'homework1', file: 'Homework%201.txt' },
+        { id: 'homework3', file: 'Homework%203.txt' },
+        { id: 'cardTinkering', file: 'card_tinkering.txt' },
+        { id: 'homework5', file: 'Homework%205.txt' },
+        { id: 'groupwork', file: 'groupwork.txt' },
+    ];
+
+    files.forEach(({ id, file }) => {
+        fetch(file)
             .then(response => response.text())
             .then(data => {
-                document.getElementById('text-content').textContent = data;
+                document.getElementById(id).textContent = data;
             })
             .catch(error => {
-                document.getElementById('text-content').textContent = "Error loading file!";
-                console.error("Error:", error);
+                document.getElementById(id).textContent = "Error loading file!";
+                console.error("Error loading", file, ":", error);
             });
-    </script>
+    });
+</script>
+
     <h2>Figures:</h2>
 
     <figure>
@@ -76,53 +86,6 @@
         <img src="Pictures/assignment2.png" alt="A photo" style="max-width: 50%; height: auto;">
         <figcaption>Figure 6: The table with materials and their qualities, as made for assignment 2.</figcaption>
     </figure>
-    <script>
-        // Fetch and display text file content
-        fetch('Homework%203.txt') // Fix spaces in filename
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('text-content').textContent = data;
-            })
-            .catch(error => {
-                document.getElementById('text-content').textContent = "Error loading file!";
-                console.error("Error:", error);
-            });
-    </script>
-    <script>
-        // Fetch and display text file content
-        fetch('card_tinkering.txt') // Fix spaces in filename
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('text-content').textContent = data;
-            })
-            .catch(error => {
-                document.getElementById('text-content').textContent = "Error loading file!";
-                console.error("Error:", error);
-            });
-    </script>
-    <script>
-        // Fetch and display text file content
-        fetch('Homework%205.txt') // Fix spaces in filename
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('text-content').textContent = data;
-            })
-            .catch(error => {
-                document.getElementById('text-content').textContent = "Error loading file!";
-                console.error("Error:", error);
-            });
-    </script>
-    <script>
-        // Fetch and display text file content
-        fetch('groupwork.txt') // Fix spaces in filename
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('text-content').textContent = data;
-            })
-            .catch(error => {
-                document.getElementById('text-content').textContent = "Error loading file!";
-                console.error("Error:", error);
-            });
-    </script>
+
 </body>
 </html>
