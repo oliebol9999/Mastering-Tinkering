@@ -22,6 +22,8 @@
 </head>
 <body>
     <h2>Portfolio Arend:</h2>
+    <h1>Homework week 1:</h1>
+
     <pre id="text-content">Loading...</pre>
 
     <script>
@@ -36,20 +38,30 @@
                 console.error("Error:", error);
             });
     </script>
+    <h2>Figures:</h2>
+
     <figure>
         <img src="Pictures/desktop.jpeg" alt="A photo" style="max-width: 50%; height: auto;">
         <figcaption>Figure 1: A photo of my desktop.</figcaption>
     </figure>
     <figure>
-        <img src="Pictures/knex.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 2: An illustration of KNEX, which is really cool and inspired me to create molecules.</figcaption>
+        <img src="Pictures/tinkertools.jpeg" alt="A photo" style="max-width: 50%; height: auto;">
+        <figcaption>Figure 1: A photo of my tinker tool storage.</figcaption>
+    </figure>
+    <figure>
+        <img src="Pictures/soapbox.jpeg" alt="A photo" style="max-width: 50%; height: auto;">
+        <figcaption>Figure 2: A photo of the soapbox I created with my fraternity for a soapbox race (we ended in the top 3).</figcaption>
     </figure>
     <figure>
         <img src="Pictures/octopus block.png" alt="A photo" style="max-width: 50%; height: auto;">
-        <figcaption>Figure 3: A first draft for a building block, dubbed the octopus block. This drawing is a slice along the length of the block, with the width being constant. This idea was discarded on the account of being boring.</figcaption>
+        <figcaption>Figure 2: A first draft for a building block, dubbed the octopus block. This drawing is a slice along the length of the block, with the width being constant. This idea was discarded on the account of being boring.</figcaption>
     </figure>
     <figure>
-        <img src="Pictures/magnet setup.png" alt="A photo" style="max-width: 50%; height: auto;">
+        <img src="Pictures/knex.png" alt="A photo" style="max-width: 50%; height: auto;">
+        <figcaption>Figure 3: An illustration of KNEX, which is really cool and inspired me to create molecules as a building block.</figcaption>
+    </figure>
+    <figure>
+        <img src="Pictures/Magnet setup.png" alt="A photo" style="max-width: 50%; height: auto;">
         <figcaption>Figure 4: A rough sketch of how magnets could replace the bonds betweeen individual peptides. The orange and red lines are magnets connecting to their corresponding colour.</figcaption>
     </figure>
     <figure>
@@ -60,5 +72,57 @@
         <img src="Pictures/beta sheet structure.png" alt="A photo" style="max-width: 50%; height: auto;">
         <figcaption>Figure 6: The secondary beta sheet protein structure of peptides.</figcaption>
     </figure>
+    <figure>
+        <img src="Pictures/assignment2.png" alt="A photo" style="max-width: 50%; height: auto;">
+        <figcaption>Figure 6: The table with materials and their qualities, as made for assignment 2.</figcaption>
+    </figure>
+    <script>
+        // Fetch and display text file content
+        fetch('Homework%203.txt') // Fix spaces in filename
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('text-content').textContent = data;
+            })
+            .catch(error => {
+                document.getElementById('text-content').textContent = "Error loading file!";
+                console.error("Error:", error);
+            });
+    </script>
+    <script>
+        // Fetch and display text file content
+        fetch('card_tinkering.txt') // Fix spaces in filename
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('text-content').textContent = data;
+            })
+            .catch(error => {
+                document.getElementById('text-content').textContent = "Error loading file!";
+                console.error("Error:", error);
+            });
+    </script>
+    <script>
+        // Fetch and display text file content
+        fetch('Homework%205.txt') // Fix spaces in filename
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('text-content').textContent = data;
+            })
+            .catch(error => {
+                document.getElementById('text-content').textContent = "Error loading file!";
+                console.error("Error:", error);
+            });
+    </script>
+    <script>
+        // Fetch and display text file content
+        fetch('groupwork.txt') // Fix spaces in filename
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('text-content').textContent = data;
+            })
+            .catch(error => {
+                document.getElementById('text-content').textContent = "Error loading file!";
+                console.error("Error:", error);
+            });
+    </script>
 </body>
 </html>

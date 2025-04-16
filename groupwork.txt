@@ -1,0 +1,56 @@
+The process of how we got to the end product with our group is explained below.
+
+From our first selection of problems, we picked the unintuitiveness of cars; how hard it is to know what is wrong with a broken car without training and/or extensive documentation / help. Rationale; tinkering mindset to make something technically difficult accessible. This would be a workshop with the focus of understanding the workings of an engine.
+
+
+After pitching and reflection, while the mindset might be applicable, the type of sessions you end up with eventually become quite close-ended, more like a teaching session than a tinkering one.
+
+
+Thus we needed to increase tinkerability. We refined our scope to the concept of energy transformation as it happens in a combustion engine; pressure to movement. Our main technical hurdle in this phase was the difficulty of creating an actually working piston + crankshaft system. Our building block would be this component, and through a life-size scale this building block would have an inviting affordance, allowing participants to transform muscle force to pressure to movement. A wide range of other components would be supplied so that participants could use this movement to create whatever they deemed cool.
+
+
+Upon, once again, pitching and reflecting, we sadly realised that, though the idea was nice, building blocks we had thought up would be very hard to realise within the scope of this course. So we made another switch, this time not necessarily for tinkerability's sake, but so that the concept would become something we could realise.
+
+
+To keep with the theme of energy transfer while making the idea more feasible, we switched from pistons to sails. This was easier to realize because of the following two reasons:
+1) most of our group members have access to some handy materials for this 
+2) this requires less precision materials (a piston needs to be airtight for example), so prototyping it is more forgiving.
+
+
+So, great for the prototype, for the concept you might lose some tinkerability (reliant on the wind conditions). Now the working out!!
+
+
+Finding the balance of what to pre-design and what to leave to be tinkered with was a big part of deciding what building blocks to design, and something which greatly determines how 'tinkerable' the final product will be.
+
+
+The building blocks we ended up with aim to create such a balance. We decided that the parts we should 'make easy' are mainly concerned with structural aspects; it should be up to participants to come up with a cool way to harness the wind (by creating a certain shape of sail for example) and to transfer it to whatever they want to do with it. What they should not have to worry about is attaching sail cloth to a mast, securely mounting a mast to their machine, or creating the frames of their machines. Thus, we need a system which allows users to quickly and easily whip up structurally sound bases with which to carry out their idea. For this we would use something like Infento as the base. What we then need to design are connectors for attaching rods/masts to each other and the structure, and a way to easily attach sail cloth to those rods
+
+
+We came up with and tested preliminary designs for the three connectors. We took pictures!
+Cloth connector (cloth used is of an old surfing kite, will probably use this going forward too - lightweight, reasonably sturdy, and accessible to us)
+Based on windsurfing mast thickener
+V1: rubber bicycle handlebar covers cut lengthwise
+Rubber makes it grippy, good!
+They are too flexible so come off easily, bad!
+V2: Corrugated tube
+Corrugation makes it a bit too unflexible to easily clip on
+Corrugation makes for a more snug fit
+Tube material is hard/smooth, so not a lot of grip
+Rod connector: Being printed as I type
+Mastfoot (we already had this)
+
+Printed some clips - iteration with magnets to make ez corners, because printing soft (TPU) materials turned out not to be feasible with the ender 3 v2 present in one of the team members home. A lot of different sizes of the clips were made to see how well they fit the PVC pipe. However, when searching for more pipes it became clear that we chose a PVC pipe which was not a standard dimension. After going around a lot of different stores we chose a standard dimension and added foam around it so the clips that were made were still able to fit around the pipe tightly. This made the pipes less rigid, but we were able to use the same clips without needing to print new ones. 
+Added holes to the pipes so they can be attached to mast feet with a piece of rope. Pipe fit around the mast foot - we also worked on an adapter piece for this, but in later iteration this turned out not to be necessary.. We did not have anything to attach the mastfoot to, but we did have the mountain board (which had a mastfoot) 
+
+
+Brought a bunch of sails, scissors and rope to the session so they could be attached. Worked nicely. 
+Test with group member; was able to build a sail according to the idea they had. 
+
+
+
+Below, my personal reflection on the groupwork is written
+At the start of the groupwork I realized I found the assignment very vague. When i discussed this with my groupmates, I discovered they thought the same. However, we had to hand something in the next lecture, so we started brainstorming. 
+In the group, I was the only one who did not come from the Creative technology bachelor. This was noticeable because I was thinking in right or wrong terms. Once we brainstormed a tinkering workshop to which i could not note any flaws, to me the brainstorming was done. However, my group wanted to discuss more ideas, as we might think up a better idea. This frustrated me and inspired me to learn from their way of working at the same time. In the end we continued brainstorming for a bit, but we were not able to think up anything better. After I asked why we did not settle for the initial idea, they agreed we should actually still settle for the initial idea.
+However, perhaps I should have let them 'cook' a bit longer, as it turned out our engine workshop was somewhat close ended, as it did not allow participants to tinker up their own solution to a challenge. When we went back to the drawing board, I tried to get more into the brainstorming mindset, which still turned out to be hard as we found a good alternative almost immediately. This was the idea with the crankshaft to turn pressure into movement, which was too hard to realize. 
+After another round of brainstorming, we realized a soapbox race with sails would be easier to realize and would still keep the energy transition theme we wanted. At the same time, most of our group was part of the boardsport association Hardboard, so we had good knowledge of sails and access to old equipment we could use.
+The week we had to start building the building block we provide as schaffoling, I had an accident on my skateboard and tore a ligament in my knee. Sadly, this prevented me from helping out with most of the tinkering, as this was done physically. I was able to help out by creating some 3d print models in solidworks, for the stiff mastfoot and the interface block between mastfoot and wood, but in the end these were not needed. We had discovered a mountain board in the Hardboard storage, which already had a mastfoot attached to wood with wheels. This would allow us to create the proof of concept without needing the stiff mastfoot or interface block.

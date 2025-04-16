@@ -1,0 +1,28 @@
+In the LEGO serious play method, a facilitator provides a building prompt, for instance 'build the ideal employee'. All participants then build a model of the prompt, and explain their model to eachother. Afterwards, the facilitator can ask the participants to create a model together, or have the model reconstructed under a different set of rules (for instance, 'build the ideal part-time employee'). By reflecting on the effect of different scenario's on the model, participants can develop new and creative ideas in a playful way.
+While adults do not require a very different approach from the facilitator, the scene must be set properly. Respectful discussion is key to the LEGO serious play method, as explaining and discussing your models with other participants can yield insightful findings.
+
+1) where in a process do you use tinkering
+As a software robotics student, most of my projects lack the physicality needed for tinkering. While software development is sometimes suitable for educated guesses, this alone is not enough to be called tinkering. However, robotics does have some tinkerable problems. For instance, designing cheap robot hardware can easily be done by tinkering. For instance, if you need to make the frame for a robot, you can 3d print it. If later on you realize you needed to alter something to this frame, you can easily re-print it with some alterations. This could be called tinkering, since it involves brainstorming for the initial idea, trial and error and has a physical nature.
+
+2) how can you translate a design problem or research problem into a tinkering playground?
+Generally, design problems are very big, multi-disciplinary problems which can seem hard to tinker around with. However, if you divide the design problem into multiple sub-problems, some of the individual problems might be tinkerable. For instance, the earlier mentioned 3d printed robot frame could only be tinkered around with because you did not try to solve the problem of 'creating a robot' all at once. First, the problem was divided into sub problems, of which one was to create a frame. Then, brainstorming can be used to figure out some requirements for the frame (it needs to attach to a battery, computer and wheels). Then, a frame can be fabricated which meets those requirements, and if it is not satisfactory it can be remade (trial and error).
+
+3) what can you use to get unstuck?
+Most of the sources of tinkerspiration mentioned in the homework for session 1 can be used to get unstuck. However, for me I have found asking a friend or teacher for advice to be the most effective. Usually the friend or teacher has a different expertise from me, which might be better suited to the problem I am stuck at. They also have a fresh mindset, which might notice solutions I had initially discarded because of a certain reason a month ago which might no longer apply.
+
+4) how do you get into the flow?
+I am most in the flow when I am on the sea, getting smashed by waves I am trying to surf. However, the sea is not a very practical location to work on my study. I usually get most into the flow when I am studying by putting my headphones with music, and turning off my connection to WhatsApp (since that is usually very distracting). Also I notice eating and sleeping well helps a lot for the concentration. Who would have thought taking care of yourself actually matters?
+
+Papert thinks people learn best when working on a (meaningful) project. In this project, people are able to apply what they already know, and learn new things they actually need. This way people are more motivated to learn.
+
+Montessori thinks people learn best when learning using their own method. This is amplified by an environment specifically constructed for learning for people of their age. Montessori empathises respect for children's own learning process.
+
+Both Papert and Montessori think people learn best with hands on, experimental learning. They think children learn best when working on projects the children find meaningful, which can encourage creativity and curiosity.
+A difference in the approach between Papert and Montessori is that Papert advocated for the use of technology in education, while Montessori thought experiencing sensory experiences was more important for education.
+
+Both methodologies mention tinkering as an important element of properly educating children. For children of young age, tinkering with technology can be complex, meaning Paperts methodology is easier to tinker around with at an older age. The Montessori approach, focused on hands on and self directed learning could be more suitable for tinkering at a younger age.
+
+In general, you do not need a special place to start tinkering around. However, a properly setup space can help with the process. Some of the tips mentioned in the text are mentioned below.
+Furniture should be flexible and movable. They should allow for both group collaboration and individual projects. The rest of the space should also be utilized properly, with for instance chalkboards or magnetic paint. The accessibility of tinkering materials is importand, and outlets should be plentiful. There should be storage space for projects under construction, because this is very handy. Also though should be paid to safety, so first aid kits and fire extinguishers should be closeby.
+
+While a designlab or fablab is very nice to have, it is not necessary. You should make do with the tools you have, and start small. If you need space, you can organise access to space, for instance by renting some shared space together with people. Also tools can be rented, or shared. What is most important is that you actually try to tinker around, not the quality of the tinkering playground.
